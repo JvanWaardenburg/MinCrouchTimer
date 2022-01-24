@@ -1,0 +1,29 @@
+{
+    "name" : "Minimum Crouch Timer",
+    "description" : "Introduces a minimum timer for crouching to avoid immediate uncrouching",
+    "author" : "Sg",
+    "contact" : "",
+    "version" : "0.1",
+	"blt_version" : 2,
+    "updates" : [
+    	{
+			"identifier": "MinCrouchTimer",
+			"host": {
+				"meta": "https://github.com/powware/pd2-chat-translator/releases/download/refs%2Fheads%2Fmaster/meta.json"
+			}
+		}
+    ]
+
+    "hooks" : [
+		{
+			"hook_id" : "lib/units/beings/player/states/playerstandard",
+			"script_path" : "main.lua"
+
+		},
+		{
+			"hook_id" : "lib/units/beings/player/states/playerstandard",
+			"script_path" : "main.lua"
+
+		}
+    ]
+}
